@@ -1,16 +1,16 @@
 name: international_system_of_units_locale
-description: All the units in your locale
-version: 1.0.0-dev.4
-repository: https://github.com/Kleak/international_system_of_units
-homepage: https://github.com/Kleak/international_system_of_units/blob/master/packages/international_system_of_units_locale/README.md
+description: All the units in your locale. Updated to latest version of dart.
+version: 1.0.1
+repository: https://github.com/clounie/international_system_of_units
+homepage: https://github.com/clounie/international_system_of_units/blob/master/packages/international_system_of_units_locale/README.md
 
 environment:
-  sdk: ">=2.7.0 <3.0.0"
+  sdk: '^3.0.0'
 
 dependencies:
-  intl: ^0.16.1
+  intl: ^0.18.1 
 
 dev_dependencies:
-  pedantic: ^1.8.0
-  test: ^1.6.0
-  intl_translation: ^0.17.10
+  intl_translation: ^0.18.2
+  lints: ^2.1.0
+  test: ^1.24.2
